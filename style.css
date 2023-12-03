@@ -267,6 +267,42 @@ height: 18.915px;
   }
 }
 
+.footer {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #1ed760;
+  position: fixed;
+  display: flex;
+  justify-content: space-between; /* Align content to the right */
+  align-items: center;
+  width: 100%;
+  height: 20px;
+}
+
+.final-footer {
+  display: flex;
+  align-items: center;
+}
+.final-footer h5 {
+  margin-right: 100px;
+  color: #000;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: normal;
+}
+.final-footer a{
+  text-decoration: none;
+  color: #000;
+}
+
+.final-footer img {
+  margin-right: 10px; /* Add some space between the image and text */
+}
+.link-playlist {
+  margin-left: 600px;
+}
+
 
 
 
